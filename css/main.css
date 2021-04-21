@@ -1,0 +1,36 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Rudiment';
+    src: url('./../fonts/Rudiment.ttf');
+}
+
+@font-face {
+    font-family: 'IMFeelFrench';
+    src: url('./../fonts/IMFeelFrench.ttf');
+}
+
+/* Main */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    background: #F3F3F3;
+    font-family: 'IMFeelFrench';
+}
+
+/* Customizing some Bootstrap styles */
+
+.navbar {
+    box-shadow: 1px 1px 5px rgba(30, 30, 30, .5);
+}
+
+button.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}

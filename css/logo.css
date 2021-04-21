@@ -1,0 +1,37 @@
+.logo {
+    font-size: .9em;
+}
+
+.logo-span-1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.logo-span-1,
+.logo-span-2 {
+    font-family: 'IMFeelFrench';
+    text-shadow: 1px 1px 2px #0dcaf0;
+}
+
+.logo-span-2 {
+    font-size: 1.75em;
+}
+
+.logo-span-3 {
+    padding-top: .75em;
+    line-height: 0;
+    font-size: 1.35em;  
+    font-family: 'Rudiment';
+    color: #0dcaf0;
+    animation: word 3s infinite ease-in-out;
+}
+
+@keyframes word {
+    0%, 100% {
+        margin-left: 0;
+    } 
+    50% {
+        margin-left: .65em;
+        opacity: .35;
+    }
+}
